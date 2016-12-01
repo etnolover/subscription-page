@@ -1,0 +1,135 @@
+.PayType-section-name {
+  margin: 0;
+  margin-bottom: 28px;
+  font-size: 20px;
+}
+
+.PayType-types {
+  padding: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.PayType-option-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px 20px 0;
+}
+
+.PayType-input-radio {
+  display: none;
+}
+
+.PayType-type {
+  display: inline-block;
+  vertical-align: top;
+  width: 188px;
+  height: 90px;
+  border: 1px dashed #818181;
+  cursor: pointer;
+}
+
+.PayType-input-radio:checked + .PayType-type {
+  background-color: #F9DE91;
+  border: 1px solid #F9DE91;
+}
+
+.PayType-type:hover {
+  background-color: #F9DE91;
+}
+
+.PayType-type:nth-of-type(4) {
+  margin-right: 0;
+}
+
+.PayType-cards {
+  background: url('../images/sprite.payment-cards.png') no-repeat 50% 50%;
+  background-size: 44%;
+}
+
+.PayType-yandex {
+  background: url('../images/sprite.payment-yandexmoney.png') no-repeat 50% 50%;
+  background-size: 38%;
+}
+
+.PayType-paypal {
+  background: url('../images/sprite.payment-paypal.png') no-repeat 50% 50%;
+  background-size: 50%;
+}
+
+.PayType-webmoney {
+  background: url('../images/sprite.payment-webmoney.png') no-repeat 50% 50%;
+  background-size: 55%;
+}
+
+.PayType-sms {
+  padding-top: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.PayType-sms__russia-only {
+  font-size: 14px;
+  color: #BFBFBF;
+}
+
+.PayType-qiwi {
+  background: url('../images/sprite.payment-qiwi.png') no-repeat 50% 50%;
+  background-size: 44%;
+}
+
+.PayType-gift-code {
+  padding-top: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.PayType-input-checkbox {
+  display: none;
+}
+
+.PayType-gift-subscription {
+  position: relative;
+  padding-left: 28px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.PayType-gift-subscription::before {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  content: '';
+  background: url('../images/checkbox-unchecked.png') no-repeat;
+  background-size: 90%;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.PayType-input-checkbox:checked + .PayType-gift-subscription::before {
+  position: absolute;
+  top: -6px;
+  left: 3px;
+  background: url('../images/checkbox-checked.png') no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.PayType-input-checkbox:disabled + .PayType-gift-subscription {
+  color: #d3d3d3;
+}
+
+.PayType-input-checkbox:disabled + .PayType-gift-subscription {
+  cursor: auto;
+}
+
+.PayType-input-radio_disabled:disabled + .PayType-gift-code {
+  border-color: #d3d3d3;
+  color: #d3d3d3;
+}
+
+.PayType-input-radio_disabled:disabled + .PayType-gift-code:hover {
+  background-color: inherit;
+  cursor: auto;
+}

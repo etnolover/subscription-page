@@ -1,0 +1,57 @@
+.SubmitPayment {
+  padding: 40px 0 40px 58px;
+  height: 200px;
+  background-color: #EDF1F4;
+}
+
+.SubmitPayment-submit {
+  display: inline-block;
+  margin-bottom: 32px;
+  background: #FBC835 url("../images/ribbing-pattern.png") repeat;
+  width: 154px;
+  height: 54px;
+  line-height: 50px;
+  border-top: 2px solid #FBC835;
+  border-bottom: 2px solid #B09641;
+  border-radius: 25px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #6D5819;
+  text-align: center;
+}
+
+.SubmitPayment-footer {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  margin-right: 5px;
+  padding-left: 30px;
+  width: 276px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5A5E61;
+}
+
+.SubmitPayment-footer__no-fee::before,
+.SubmitPayment-footer__protection::before {
+  position: absolute;
+  top: 1px;
+  left: -2px;
+  content: '';
+  width: 25px;
+  height: 25px;
+}
+
+.SubmitPayment-footer__no-fee::before {
+  background: url('../images/sprite.nocomission-silver.png') no-repeat;
+  background-size: 100%;
+}
+
+.SubmitPayment-footer__protection::before {
+  left: 5px;
+  background: url('../images/sprite.lock-silver.png') no-repeat;
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+}

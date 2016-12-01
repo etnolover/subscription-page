@@ -1,0 +1,69 @@
+.TotalPayable-section-name {
+  margin: 0;
+  margin-bottom: 28px;
+  font-size: 20px;
+}
+
+.TotalPayable-final-total {
+  margin: 0;
+  margin-top: -8px;
+  font-size: 50px;
+  color: #BEBEBE;
+}
+
+.TotalPayable-resulted-amount {
+  color: #000;
+}
+
+.TotalPayable-currency {
+  font-size: 20px;
+}
+
+.TotalPayable-monthly-subs {
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 14px;
+  color: #565759;
+}
+
+.TotalPayable-input-checkbox {
+  display: none;
+}
+
+.TotalPayable-add-discount {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 5px;
+  padding-left: 28px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.TotalPayable-add-discount::before {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  content: '';
+  background: url('../images/checkbox-unchecked.png') no-repeat;
+  background-size: 90%;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.TotalPayable-input-checkbox:checked + .TotalPayable-add-discount::before {
+  position: absolute;
+  top: -6px;
+  left: 3px;
+  background: url('../images/checkbox-checked.png') no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.TotalPayable-subscription-details {
+  margin: 0;
+  padding-left: 28px;
+  font-size: 14px;
+  color: #5D5E62;
+}
