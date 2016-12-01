@@ -1,0 +1,20 @@
+{
+  "main.css": "static/css/main.639a96f2.css",
+  "main.css.map": "static/css/main.639a96f2.css.map",
+  "main.js": "static/js/main.e2021468.js",
+  "main.js.map": "static/js/main.e2021468.js.map",
+  "static/media/checkbox-checked.png": "static/media/checkbox-checked.d7f8dea8.png",
+  "static/media/checkbox-unchecked.png": "static/media/checkbox-unchecked.27fb0679.png",
+  "static/media/crown.png": "static/media/crown.6fb3bcc8.png",
+  "static/media/golden-card.png": "static/media/golden-card.8116810a.png",
+  "static/media/green-card.png": "static/media/green-card.5bd09f2b.png",
+  "static/media/ribbing-pattern.png": "static/media/ribbing-pattern.f66ec276.png",
+  "static/media/silver-card.png": "static/media/silver-card.3a20d66b.png",
+  "static/media/sprite.lock-silver.png": "static/media/sprite.lock-silver.271ee966.png",
+  "static/media/sprite.nocomission-silver.png": "static/media/sprite.nocomission-silver.57aa2a26.png",
+  "static/media/sprite.payment-cards.png": "static/media/sprite.payment-cards.9974f9a0.png",
+  "static/media/sprite.payment-paypal.png": "static/media/sprite.payment-paypal.c5fad8f8.png",
+  "static/media/sprite.payment-qiwi.png": "static/media/sprite.payment-qiwi.ce018af0.png",
+  "static/media/sprite.payment-webmoney.png": "static/media/sprite.payment-webmoney.7d5cc4d3.png",
+  "static/media/sprite.payment-yandexmoney.png": "static/media/sprite.payment-yandexmoney.96a0cf19.png"
+}
